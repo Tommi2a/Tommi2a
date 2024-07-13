@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Video-Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .video-item {
+            margin: 10px;
+            background: #fff;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        video {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meine Anime-List</h1>
+    <div class="video-container">
+        <div class="video-item">
+            <h2>Video 1</h2>
+            <video controls>
+                <source src="video1.mp4" type="video/mp4">
+                Ihr Browser unterstützt das Video-Tag nicht.
+            </video>
+        </div>
+        <div class="video-item">
+            <h2>Video 2</h2>
+            <video controls>
+                <source src="video2.mp4" type="video/mp4">
+                Ihr Browser unterstützt das Video-Tag nicht.
+            </video>
+        </div>
+        <div class="video-item">
+            <h2>Video 3</h2>
+            <video controls>
+                <source src="video3.mp4" type="video/mp4">
+                Ihr Browser unterstützt das Video-Tag nicht.
+            </video>
+        </div>
+        <div class="video-item">
+            <h2>Video 4</h2>
+            <video controls>
+                <source src="video4.mp4" type="video/mp4">
+                Ihr Browser unterstützt das Video-Tag nicht.
+            </video>
+        </div>
+        <div class="video-item">
+            <h2>Video 5</h2>
+            <video controls>
+                <source src="video5.mp4" type="video/mp4">
+                Ihr Browser unterstützt das Video-Tag nicht.
+            </video>
+        </div>
+        <!-- Weitere Videos können hier hinzugefügt werden -->
+    </div>
+</body>
+</html>
